@@ -116,7 +116,7 @@ address a:focus {
     letter-spacing: 1.12px;
 }
 
-.our_team {
+.our-team {
     color: var(--navyblue, #2E2F42);
     text-align: center;
 
@@ -188,4 +188,8 @@ address a:focus {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+}
+
+.sect-team {
+    background-color: #F4F4FD;
 }
