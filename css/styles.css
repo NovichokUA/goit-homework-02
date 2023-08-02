@@ -28,7 +28,7 @@ img {
     color: var(--white, #FFF);
 
     /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -98,11 +98,11 @@ address a:focus {
     background: var(--navyblue, #2E2F42);
 }
 
-.sect2 {
+.ourteam {
     background: var(--cloud, #F4F4FD);
 }
 
-.title1 {
+.title {
     color: var(--white, #FFF);
     text-align: center;
 
@@ -116,7 +116,7 @@ address a:focus {
     letter-spacing: 1.12px;
 }
 
-.h2 {
+.our_team {
     color: var(--navyblue, #2E2F42);
     text-align: center;
 
@@ -131,7 +131,7 @@ address a:focus {
     text-transform: capitalize;
 }
 
-.title3 {
+.paragraf {
     color: var(--navyblue, #2E2F42);
 
     /* Header 3 */
