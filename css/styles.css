@@ -42,7 +42,7 @@ button:focus {
     background-color: var(--ocean, #404BBF);
 }
 
-nav {
+.nav {
     color: var(--navyblue, #2E2F42);
     /* Body Medium */
     font-family: Roboto;
