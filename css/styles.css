@@ -24,6 +24,7 @@ img {
 
 button {
     background-color: var(--iris, #4D5AE5);
+    cursor: pointer;
 }
 
 button:hover,
@@ -38,7 +39,7 @@ nav {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
 }
@@ -54,7 +55,7 @@ address a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
 }
@@ -62,6 +63,13 @@ address a {
 address a:hover,
 address a:focus {
     color: var(--ocean, #404BBF);
+}
+
+.secthero {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
 }
 
 h1 {
@@ -73,14 +81,103 @@ h1 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07143;
     /* 107.143% */
     letter-spacing: 1.12px;
 }
 
-.secthero {
+h2 {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11111;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--navyblue, #2E2F42);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+p {
+    color: var(--slate, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.team>li>h3 {
+    text-align: center;
+}
+
+.team>li>p {
+    text-align: center;
+}
+
+footer {
     width: 1440px;
-    height: 600px;
+    height: 312px;
     flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
+}
+
+footer p {
+    color: var(--cloud, #F4F4FD);
+}
+
+.web {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16667;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.studio {
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16667;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.studio1 {
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16667;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
