@@ -17,11 +17,6 @@ ul {
     list-style-type: none;
 }
 
-img {
-    width: 360px;
-    height: 300px;
-}
-
 .button {
     background-color: var(--iris, #4D5AE5);
     cursor: pointer;
@@ -92,9 +87,6 @@ address a:focus {
 }
 
 .secthero {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
 }
 
@@ -162,9 +154,6 @@ address a:focus {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
 }
 
